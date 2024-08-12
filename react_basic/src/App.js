@@ -1,35 +1,37 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Home';
+import Dashboard from './Dashboard';
+import Navbar from './Navbar';
+import Sidebar from './Sidebar'
+import MS_Auth from './MS_Auth';
 
-const App = () => {
+const App=() =>{
   return (
-    <div className="container">
-      <div className="left-panel">
-        <img src="https://azuintone-hrms-dev-appsvc01.azurewebsites.net/assets/media/logos/intone-hrms-logo.png" alt="Intone Logo" className="logo" />
-        <div className="info-section">
-          <div className="image-container">
-            <img src="https://azuintone-hrms-dev-appsvc01.azurewebsites.net/assets/media/misc/auth-screens.png" alt="Woman with Laptop" />
-          </div>
-          <h2>Fast, Efficient and Productive</h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          </p>
-        </div>
-      </div>
-      <div className="right-panel">
-        <div className="login-box">
-          <div>
-            <img src="https://azuintone-hrms-dev-appsvc01.azurewebsites.net/assets/media/microsoft-logo.png" alt="Microsoft-logo" className="Microsoft_logo"/>
-          </div>
-          <h3>Login With Microsoft</h3>
-          <button className="login-button">Login</button>
-          <p>Or</p>
-          <button className="credentials-button">Login with Credentials</button>
-        </div>
-      </div>
-    </div>
-  );
-};
+    <>
+    <Navbar/>
+    <section className='section'>
+        <nav className='nav'>
+            <Sidebar/>
+        </nav>
+        <article className='article'>
+        <BrowserRouter>
+          <Routes>
+            <Route path='/home' element={<Home/>}/>
+            <Route path='/dashboard' element={<Dashboard/>}/>
+            <Route path='/navbar' element={<Navbar/>}/>
+            <Route path='/sidebar' element={<Sidebar/>}/>
+            <Route path='/MS_Auth' element={<MS_Auth/>}/>
+          </Routes>
+      </BrowserRouter>
+      </article>
+    </section>
+    <footer className='footer'>
+      <p>2024 © Intone Networks Inc.</p>
+    </footer>
+    </>
+  )
+}
 
 export default App;
- 

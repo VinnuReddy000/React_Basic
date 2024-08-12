@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-panel {
+    background-color: #0a74da;
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .right-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+  }
+  
+  .logo {
+    width: 200px;
+    margin-bottom: 50px;
+  }
+  .Microsoft_logo{
+    width: 150px;
+  }
+  .info-section {
+    text-align: center;
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 350px;
+    margin-bottom: 20px;
+  }
+  
+  .login-box {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    margin-bottom: 20px;
+  }
+  
+  .login-button, .credentials-button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .credentials-button {
+    background-color: #f3f3f3;
+    color: #0078d4;
+    margin-top: 10px;
+  }
+  
+  .credentials-button:hover, .login-button:hover {
+    opacity: 0.9;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+   
