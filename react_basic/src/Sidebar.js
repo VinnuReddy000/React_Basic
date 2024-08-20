@@ -6,7 +6,7 @@ const Sidebar=()=>{
     <>
     <div appHover>
         <div className="site-menu">
-            <a href="home">Home</a>
+            <a href="dashboard">Dashboard</a>
         </div>
         <div className="site-menu">
             <a href="holiday">Holiday List</a>
@@ -19,6 +19,9 @@ const Sidebar=()=>{
         </div>
         <div className="site-menu">
             <a href="#">Notifications</a>
+        </div>
+        <div className="site-menu">
+            <a href="MS_Auth">Sign Out</a>
         </div>
     </div>
     </>

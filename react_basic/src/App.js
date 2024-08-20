@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from './Home';
 import Dashboard from './Dashboard';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar'
@@ -12,13 +11,14 @@ const App=() =>{
     <>
     <Navbar/>
     <section className='section'>
-        <nav className='nav'>
+      <div className='content_flex'>
+        <div className='nav'>
             <Sidebar/>
-        </nav>
+        </div>
+        <div>
         <article className='article'>
         <BrowserRouter>
           <Routes>
-            <Route path='/home' element={<Home/>}/>
             <Route path='/dashboard' element={<Dashboard/>}/>
             <Route path='/navbar' element={<Navbar/>}/>
             <Route path='/sidebar' element={<Sidebar/>}/>
@@ -26,6 +26,8 @@ const App=() =>{
           </Routes>
       </BrowserRouter>
       </article>
+      </div>
+      </div>
     </section>
     <footer className='footer'>
       <p>2024 © Intone Networks Inc.</p>
