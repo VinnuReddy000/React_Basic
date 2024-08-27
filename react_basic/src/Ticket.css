@@ -1,5 +1,5 @@
 .main-ticket{
-    width: 100%;
+    width:auto;
     background-color: #eae4e4;
 }
 h3{
@@ -10,17 +10,19 @@ h3{
 }
 .mticket{
     background-color: white;
-    width:100%;
+    width:auto;
+    padding: 1px;
     border-radius: 10px;
     border-color: red;
     
 }
 .labels{
-    margin-top: 25px;
-    margin-left: 30px;
-    padding-top: 12px;
-    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 20px;
+    background-Color:#1B84FF12;
+    width: 200px;
 }
+
 input::placeholder{
     font:  sans-serif;
     font-size: 15px;
@@ -30,9 +32,8 @@ input::placeholder{
 .button{
     background-color:#1B84FF12;
     font: sans-serif;
-    height:49px;
-    margin-top: 25px;
-    margin-left: 330px;
+    height:45px;
+    margin-left: 20px;
     width:120px;
     border-radius: 10px;
     color: #1B84FF;
@@ -41,11 +42,10 @@ input::placeholder{
 .button1{
     background-color:#1B84FF;
     font:sans-serif;
-    height: 49px;
+    height: 45px;
     margin-left: 19px;
     border-radius: 10px;
     color:white;
-    margin-top: 25px;
     width: 170px;
 }
 .case-table{

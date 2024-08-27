@@ -11,7 +11,7 @@ function Ticket() {
         <div className="mticket">
             
             <label></label>
-            <input style={{width:250 ,backgroundColor:'#1B84FF12'}} className="labels" type="text" placeholder="Search by Keyword" value={setkeyword}
+            <input className="labels" type="text" placeholder="Search by Keyword" value={setkeyword}
             onChange={(e)=>{setkeyword(e.target.value)}}/>
 
             <button type="button" className="button">Filter</button>
