@@ -1,0 +1,20 @@
+.divbirthday{
+    padding: 20px;
+    width:90%;
+    background-color:gainsboro;
+    height: 100%;
+  }
+    .birthday{
+      padding:20px;
+      background-color: white;
+      border-radius: 20px;
+      width:100%;
+    }
+    .birthday h3{
+      color:blue;
+      
+    }
+    .birthday p{
+      padding: 5px;
+      text-align:left;
+    }

@@ -6,14 +6,14 @@ const Navbar = () => {
   <>
   <div className="navbar">
     <div className="site-name" >
-        <img src="https://intoneconnect.com/images/Logo.png" alt="Google" width="100" height="40"></img>
+        <img src="https://intoneconnect.com/images/Logo.png" alt="Google" width="200" height="70"></img>
     </div>
-    <div className="site-menu">
+    {/* <div className="site-menu">
         <a href="#">About</a>
     </div>
     <div className='site-menu'>
       <a href="#">My Profile</a>
-    </div>
+    </div> */}
   </div>
   </>
   )

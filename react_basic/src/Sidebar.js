@@ -4,7 +4,7 @@ import './Sidebar.css';
 const Sidebar=()=>{
     return(
     <>
-    <div appHover>
+    <div appHover >
         <div className="site-menu">
             <a href="dashboard">Dashboard</a>
         </div>
@@ -15,14 +15,23 @@ const Sidebar=()=>{
             <a href="leave">Apply Leave</a>
         </div>
         <div className="site-menu">
-            <a href="ticket">Ticket</a>
+            <a href="Ticket">Ticket</a>
+        </div>
+        {/* <div className="site-menu">
+            <a href="#">Notifications</a>
+        </div> */}
+        {/* <div className="site-menu">
+            <a href="MS_Auth">Sign Out</a>
+        </div>  */}
+        <div className="site-menu">
+            <a href="Announcement">Announcements</a>
         </div>
         <div className="site-menu">
-            <a href="#">Notifications</a>
-        </div>
+            <a href="AttendenceReport">AttendenceReport</a>
+        </div><br/><br/><br/><br/>
         <div className="site-menu">
             <a href="MS_Auth">Sign Out</a>
-        </div>
+        </div> 
     </div>
     </>
     )

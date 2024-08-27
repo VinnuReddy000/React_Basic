@@ -1,11 +1,12 @@
 .navbar {
     border-radius: 5px;
     display: flex;
-    background-color: rgb(255, 255, 255)
+    background-color: rgba(255, 255, 255, 0.872)
 }
 .site-name {
     align-content: center;
     padding: 5px 30px; 
+    
 }
 .site-menu {
     align-content: center;

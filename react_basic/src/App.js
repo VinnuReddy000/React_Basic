@@ -5,6 +5,10 @@ import Dashboard from './Dashboard';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar'
 import MS_Auth from './MS_Auth';
+import Announcement from './Announcement';
+import AttendenceReport from './AttendenceReport';
+import Ticket from './Ticket';
+
 
 const App=() =>{
   return (
@@ -15,7 +19,7 @@ const App=() =>{
         <div className='nav'>
             <Sidebar/>
         </div>
-        <div>
+        <div >
         <article className='article'>
         <BrowserRouter>
           <Routes>
@@ -23,6 +27,9 @@ const App=() =>{
             <Route path='/navbar' element={<Navbar/>}/>
             <Route path='/sidebar' element={<Sidebar/>}/>
             <Route path='/MS_Auth' element={<MS_Auth/>}/>
+            <Route path='/Announcement' element={<Announcement/>}/>
+            <Route path='/AttendenceReport' element={<AttendenceReport/>}/>
+            <Route path='/Ticket' element={<Ticket/>}/>
           </Routes>
       </BrowserRouter>
       </article>

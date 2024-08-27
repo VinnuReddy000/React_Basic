@@ -9,11 +9,12 @@ h2 {
 }
 .site-menu:hover {background-color: #D6EEEE;}
 .site-menu {
-    background-color:azure;
+    background-color:white;
     padding: 10px 20px;
     margin-left: 1px;
     margin-right:1px;
     margin-top: 1px;
+    width: 200px;
 }
 a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -21,4 +22,7 @@ a{
     text-decoration: none;
     color: rgb(13, 1, 24);
     margin: 0px 1px;
+}
+.appHover{
+    background-color: red;
 }

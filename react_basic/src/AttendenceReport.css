@@ -1,0 +1,78 @@
+.mAttendenceReport{
+    background-color:white;
+    height: 100%;
+    padding: 30px;
+    border-radius:10px ;
+    margin-left: 10px;
+    margin-right: 50px;
+    width: fit-content;
+    
+  }
+  .AttendenceReport{
+    padding: 20px;
+    background-color: white;
+    
+  }
+ 
+  .label1{
+    
+    display: flex;
+    margin: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    border:1px #D1E6FF;
+}
+  
+  .emp-table th,td,tr{
+    border: 1px solid black;
+    border-collapse:collapse;
+  }
+  .emp-table th{
+    background-color: #D1E6FF;
+    font: "sans-serif"; 
+  }
+  
+  h5{
+    padding: auto;
+    margin-left: 50px;
+  }
+  .main-AttendenceReport{
+    background-color: #eae4e4;
+  }
+
+  .emp-table{
+    padding: 10px;
+    margin-top:20px;
+    margin-left:10px;
+    text-align: center;
+    font-size: 13px;
+    border-collapse: collapse;
+  }
+  .main-AttendenceReport{
+    width: fit-content;
+  }
+  
+    select{
+    appearance: none;
+  }
+  .labels{
+    height: 35px;
+    border-radius: 10px;
+    text-align:left;
+  }
+  .serach-button {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-color:#1B84FF12;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:10px;
+  }
+
+  
+
+   
