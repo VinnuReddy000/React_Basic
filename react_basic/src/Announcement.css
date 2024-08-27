@@ -1,6 +1,6 @@
 .divbirthday{
     padding: 20px;
-    width:90%;
+    width:auto;
     background-color:gainsboro;
     height: 100%;
   }
@@ -8,7 +8,7 @@
       padding:20px;
       background-color: white;
       border-radius: 20px;
-      width:100%;
+      width:auto;
     }
     .birthday h3{
       color:blue;

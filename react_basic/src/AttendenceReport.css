@@ -5,22 +5,20 @@
     border-radius:10px ;
     margin-left: 10px;
     margin-right: 50px;
-    width: fit-content;
-    
+    width:fit-content;
   }
   .AttendenceReport{
     padding: 20px;
     background-color: white;
     
   }
- 
-  .label1{
-    
-    display: flex;
-    margin: 5px;
-    margin-right: 10px;
-    padding: 10px;
-    border:1px #D1E6FF;
+.label1,.labels{
+  display: flex;
+  margin: 5px;
+  margin-right: 10px;
+  padding: 10px;
+  border:1px #D1E6FF;
+  border-radius: 10px;
 }
   
   .emp-table th,td,tr{
@@ -49,17 +47,14 @@
     border-collapse: collapse;
   }
   .main-AttendenceReport{
-    width: fit-content;
+    
+    overflow-x: scroll;
   }
   
     select{
     appearance: none;
   }
-  .labels{
-    height: 35px;
-    border-radius: 10px;
-    text-align:left;
-  }
+
   .serach-button {
     position: absolute;
     width: 60px;

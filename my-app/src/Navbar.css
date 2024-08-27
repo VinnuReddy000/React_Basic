@@ -1,0 +1,19 @@
+.navbar {
+    border-radius: 5px;
+    display: flex;
+    background-color: rgb(255, 255, 255)
+}
+.site-name {
+    align-content: center;
+    padding: 5px 30px; 
+}
+.site-menu {
+    align-content: center;
+    padding: 10px 10px;
+    margin-left: 69%;
+}
+.a{
+    text-decoration: none;
+    color: blueviolet;
+    margin: 0px 10px;
+}

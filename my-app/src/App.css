@@ -1,55 +1,8 @@
-.article {
-  border-radius: 5px;
-  margin-top: 1px;
-  float: left;
-  padding: 10px;
-  background-color: hsla(0, 7%, 87%, 0.729);
-  width: 100%;
-}
-.div {
-  width: 77%;
-}
-@media (max-width: 600px) {
-  nav, article {
-    width: auto;
-    height: auto;
-  }
-}
-
-.content_flex {
-  display: flex;
-}
-
-.section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.nav {
-  float: left;
-  height: 300px; /* only for demonstration, should be removed */
-  padding: 5px;
-}
-.nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-footer {
-  font-size: 12px;
-  padding: 0px;
-  text-align: center;
-  color: black;
-}
-
 .container {
   display: flex;
   height: 100vh;
 }
 
-.header_bar {
-  background-color: azure;
-
-}
 .left-panel {
   background-color: #0a74da;
   color: white;
@@ -121,6 +74,4 @@ h3 {
 p {
   margin: 10px 0;
 }
- footer.p{
-  text-align: left;
- }
+ 

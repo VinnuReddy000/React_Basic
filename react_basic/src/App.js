@@ -19,7 +19,7 @@ const App=() =>{
         <div className='nav'>
             <Sidebar/>
         </div>
-        <div >
+        <div className='div'>
         <article className='article'>
         <BrowserRouter>
           <Routes>
