@@ -1,0 +1,39 @@
+.heading {
+    padding: 0px;
+    width: 100%;
+}
+
+.div_bar {
+    display: flex;
+}
+.Holiday-table {
+    max-width: auto;
+    margin: 10px 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .Holiday-table table {
+    width: 250px;
+    border-collapse: collapse;
+  }
+  
+  .Holiday-table th, .Holiday-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+.Holiday-table th {
+    background-color: #f0f0f0;
+}
+  
+.employee-table td {
+    text-align: center;
+}
+.employee-table tr:hover {
+    background-color: #f2f2f2;
+}

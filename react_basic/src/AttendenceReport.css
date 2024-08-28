@@ -1,17 +1,18 @@
 .mAttendenceReport{
-    background-color:white;
-    height: 100%;
-    padding: 30px;
-    border-radius:10px ;
-    margin-left: 10px;
-    margin-right: 50px;
-    width:fit-content;
-  }
-  .AttendenceReport{
-    padding: 20px;
-    background-color: white;
-    
-  }
+  background-color:white;
+  height: 100%;
+  padding: 30px;
+  border-radius:10px ;
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 100%;
+}
+
+.AttendenceReport{
+  padding: 20px;
+  background-color: white;
+}
+
 .label1,.labels{
   display: flex;
   margin: 5px;
@@ -21,53 +22,52 @@
   border-radius: 10px;
 }
   
-  .emp-table th,td,tr{
-    border: 1px solid black;
-    border-collapse:collapse;
-  }
-  .emp-table th{
-    background-color: #D1E6FF;
-    font: "sans-serif"; 
-  }
+.emp-table th,td,tr{
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+
+.emp-table th{
+  background-color: #D1E6FF;
+  font: "sans-serif"; 
+}
   
-  h5{
-    padding: auto;
-    margin-left: 50px;
-  }
-  .main-AttendenceReport{
-    background-color: #eae4e4;
-  }
+h5{
+  padding: auto;
+  margin-left: 50px;
+}
 
-  .emp-table{
-    padding: 10px;
-    margin-top:20px;
-    margin-left:10px;
-    text-align: center;
-    font-size: 13px;
-    border-collapse: collapse;
-  }
-  .main-AttendenceReport{
-    
-    overflow-x: scroll;
-  }
-  
-    select{
-    appearance: none;
-  }
+.main-AttendenceReport{
+  background-color: #eae4e4;
+}
 
-  .serach-button {
-    position: absolute;
-    width: 60px;
-    height: 40px;
-    background-color:#1B84FF12;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius:10px;
-  }
+.emp-table{
+  padding: 10px;
+  margin-top:20px;
+  margin-left:10px;
+  text-align: center;
+  font-size: 13px;
+  border-collapse: collapse;
+  overflow-x: scroll;
+}
 
-  
+.main-AttendenceReport{
+  overflow-x: scroll;
+}
 
-   
+select{
+  appearance: none;
+}
+
+.serach-button {
+  position: absolute;
+  width: 60px;
+  height: 40px;
+  background-color:#1B84FF12;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius:10px;
+}

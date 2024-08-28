@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './Dashboard';
+import HolidayList from './HolidayList';
 import Navbar from './Navbar';
 import Sidebar from './Sidebar'
 import MS_Auth from './MS_Auth';
@@ -23,7 +24,9 @@ const App=() =>{
         <article className='article'>
         <BrowserRouter>
           <Routes>
+            <Route path='/' element ={<Dashboard/>}/>
             <Route path='/dashboard' element={<Dashboard/>}/>
+            <Route path='/holiday' element={<HolidayList/>}/>
             <Route path='/navbar' element={<Navbar/>}/>
             <Route path='/sidebar' element={<Sidebar/>}/>
             <Route path='/MS_Auth' element={<MS_Auth/>}/>

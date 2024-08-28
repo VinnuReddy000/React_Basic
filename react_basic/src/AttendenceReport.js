@@ -20,10 +20,10 @@ function AttendenceReport(){
        <label></label>
         <input className='labels' style={{width:250,marginLeft:12,backgroundColor:'#1B84FF12'}}type='text 'placeholder='search by keyword' id='search-input'/>
         
-    <div className='label1'>
-        <label></label>
-         <input style={{backgroundColor:'#1B84FF12', width:200, marginLeft:0}}  type='text' placeholder='select Emp Name' value={Empname}
-         onChange={(e)=>{setEmpname(e.target.value)}} className='labels'/>
+        <div className='label1'>
+          <label></label>
+          <input style={{backgroundColor:'#1B84FF12', width:200, marginLeft:0}}  type='text' placeholder='select Emp Name' value={Empname}
+          onChange={(e)=>{setEmpname(e.target.value)}} className='labels'/>
 
         <label></label>
             <select value={location} onChange={handleChange}  className='labels' style={{backgroundColor:'#1B84FF12', marginLeft:20, height:40, width:200}}>
@@ -32,17 +32,17 @@ function AttendenceReport(){
              <option value='Nightshift'>Nigthshift</option>
             </select>
             
-   <label style={{marginRight:10,marginRight:20}}></label>
+        <label style={{marginRight:10,marginRight:20}}></label>
           <input style={{backgroundColor:'#1B84FF12', width:200}} className='labels' type='date' placeholder='dd-mm-yyyy' 
           value={date}onChange={(e)=>{setdate(e.target.value)}}/>
-  <label></label>
+        <label></label>
           <select value={shift} onChange={handleChange1} className='labels' style={{backgroundColor:'#1B84FF12', marginLeft:20,width:200}} >
            <option value='Dayshift'>Dayshift</option>
            <option value='Nightshift'>Nightshift</option>
           </select>
-    </div>
+        </div>
           <hr/>
-       <table className='emp-table'>
+        <table className='emp-table'>
          <thead>
            <tr>
              <th height='20' width='100'>Emp Id</th>

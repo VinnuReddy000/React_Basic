@@ -27,26 +27,31 @@ input::placeholder{
     font:  sans-serif;
     font-size: 15px;
     text-align:left;
-    margin-top:2px;
+    margin-top:5px;
 }
 .button{
     background-color:#1B84FF12;
     font: sans-serif;
-    height:45px;
-    margin-left: 20px;
+    height:40px;
+    margin-left: 350px;
     width:120px;
     border-radius: 10px;
     color: #1B84FF;
+    margin-top: 15px;
 
 }
 .button1{
     background-color:#1B84FF;
     font:sans-serif;
-    height: 45px;
+    height: 40px;
     margin-left: 19px;
     border-radius: 10px;
     color:white;
     width: 170px;
+    margin-top: 15px;
+}
+.flexdiv {
+    display: flex;
 }
 .case-table{
     border-collapse: collapse;
@@ -56,13 +61,15 @@ input::placeholder{
     width:910px;
     font: sans-serif;
     font-size: 14px;
-    
+    text-align: center;
 }
 .case-table th td tr{
     border: 1px solid black;
     border-collapse: collapse;
-
 }
+
 .case-table th{
     background-color:#D1E6FF;
+    border:1px solid;
+    font: "sans-serif"; 
 }
